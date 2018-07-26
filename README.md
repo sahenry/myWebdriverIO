@@ -34,13 +34,14 @@ NPM is ok to use for this project but for the sake of time, I used Yarn (>= 1.0.
 
 - Install Node.js and NPM using Homebrew.
 
-    At the command line, type: 
+    At the command line, type:
     brew install node
 
     To see if node is installed type: 
-    node -v 
+    node -v
 
     A version number should be shown (e.g. v10.7.0).
+    
     To see if npm is installed type: 
     npm -v 
 
@@ -151,17 +152,19 @@ Start the local web server:
 $ yarn run local-webserver
 ```
 
+Run a feature test:
+
 ```sh
 $ yarn run wdio --spec ./src/features/select.feature
 ```
 
-_please note_ The WDIO runner uses the configuration file `wdio.conf.js` by default.
+_Please note_ The WDIO runner uses the configuration file `wdio.conf.js` by default.
 
 # Configurations
 
 To configure your tests, checkout the [`wdio.conf.js`](https://github.com/webdriverio/cucumber-boilerplate/blob/master/wdio.conf.js) file in your test directory. It comes with a bunch of documented options you can choose from.
 
-## Automaion Glossary
+## Automation Glossary
 
 - WebdriverIO is a functional test automation framework.
 
