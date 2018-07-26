@@ -4,10 +4,10 @@ Feature: Verify Google Webpage has certain elements
 
     @elements
     Scenario: Check different elements on Google's webpage
-		Given I open the url "https://google.com"
-		When I pause for 3000ms
+	Given I open the url "https://google.com"
+	When I pause for 3000ms
 
-		#Google logo
+	#Google logo
     	Then I expect that element "#hplogo" is visible
 
     	# Google search entry field
