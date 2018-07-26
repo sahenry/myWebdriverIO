@@ -2,12 +2,12 @@ Feature: Verify Google Webpage has certain elements
     As a developer
     I want to be able to verify that certain elements are shown on a webpage
 
- 	@elements
+    @elements
     Scenario: Check different elements on Google's webpage
-	    Given I open the url "https://google.com"
-	    When I pause for 3000ms
-	   
-	   	#Google logo
+		Given I open the url "https://google.com"
+		When I pause for 3000ms
+
+		#Google logo
     	Then I expect that element "#hplogo" is visible
 
     	# Google search entry field
@@ -44,10 +44,10 @@ Feature: Verify Google Webpage has certain elements
 
     @search
     Scenario: Verify Google Search is functional
-	    Given I open the url "http://google.com"
+    	Given I open the url "http://google.com"
     	And I pause for 3000ms
 
-		# Trigger search using fullscreen keyword
+    	# Trigger search using fullscreen keyword
     	When I set "fullscreen" to the inputfield ".//*[@id='lst-ib']"
     	And I pause for 3000ms
 
