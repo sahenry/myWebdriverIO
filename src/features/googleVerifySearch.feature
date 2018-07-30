@@ -17,7 +17,6 @@ Feature: Verify Google Search is functional
     	
     	# Google Search button
     	And I click on the element ".//*[@name='btnK']"
-    	And I pause for 5000ms
 
     	# Fullscreen search results are displayed
 
@@ -45,8 +44,6 @@ Feature: Verify Google Search is functional
     	And I click on the link "Fullscreen | CREATE DIFFERENTLY"
     	Then I expect that the url is "http://fullscreenmedia.co/"
 
-    	And I pause for 3000ms
-    	
     	# Side note: Once the above solution for verifying more than 5 results are found is done, the command above will look something like:
     	# And I click on the element ".a[href][1]"
     	#
