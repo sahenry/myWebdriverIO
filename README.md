@@ -93,9 +93,9 @@ Wdio packages will then be installed.
 
 From the command line where you want to work on your project, type:
 
-npm install selenium-standalone@latest -g 
-selenium-standalone install 
-selenium-standalone start
+npm install selenium-standalone@latest -g<br/> 
+selenium-standalone install<br/>
+selenium-standalone start<br/>
  
 - You should see a message similar to below:
     INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
