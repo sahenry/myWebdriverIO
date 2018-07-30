@@ -97,48 +97,48 @@ Wdio packages will then be installed.
 	selenium-standalone install<br/>
 	selenium-standalone start<br/>
  
-- You should see a message similar to below:
+- You should see a message similar to below:<br/>
     INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
     Selenium started
 
-- Install the Selenium Standalone Service
-    Type this at the command line of the automation project:
+- Install the Selenium Standalone Service<br/>
+    Type this at the command line of the automation project:<br/>
     npm install wdio-selenium-standalone-service --save-dev
 
 ## Install PhantomJS (just in case)
 
-In the Terminal window of the main automation project, type:
+In the Terminal window of the main automation project, type:<br/>
 npm install --save-dev wdio-phantomjs-service
 
 ## Install chai and chai as promised
 
-At the command line, type:
-npm install chai
+At the command line, type:<br/>
+npm install chai<br/>
 npm i chai-as-promised
 
 ## Install Wdio Mocha Framework Adapter
 
-At the command line, type:
+At the command line, type:<br/>
 npm install wdio-mocha-framework --save-dev
 
 ## Set up Firefox
 
-In the Terminal window of the main automation project, type:
+In the Terminal window of the main automation project, type:<br/>
 npm install wdio-firefox-profile-service --save-dev
 
 ## Set up Chrome
 
-In the Terminal window of the main automation project, type:
+In the Terminal window of the main automation project, type:<br/>
 - brew install chromedriver
 
-- If this does not work, type:
-    brew tap homebrew/cask
-    and then...
-    brew cask install chromedriver
+- If this does not work, type:<br/>
+    brew tap homebrew/cask<br/>
+    and then...<br/>
+    brew cask install chromedriver<br/>
 
 ## Quick start
 
-1. Clean the project (Optional):
+1. Clean the project (Optional):<br/>
 -- Run `yarn run clean`
 
 2. Install the dependencies (`yarn install`)
