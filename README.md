@@ -1,4 +1,4 @@
-Fullscreen Media WebdriverIO Automation Challenge
+WebdriverIO Automation Documentation
 =================================================
 
 ***
